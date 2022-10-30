@@ -11,7 +11,7 @@ export function menuMain() {
     for(let i = 0; i < 4; i++){
         const div = createElement("div", null, ["menu-card"], null);
         addElement(menuCardContainer, [div]);
-        addElement(div, [createImage("../dist/images/coffee.jpg")])
+        addElement(div, [createImage("images/coffee.jpg")])
         addElement(div, [createElement("h2", null, null, "Latte")]);
     }
 
